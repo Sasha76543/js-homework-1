@@ -1,15 +1,22 @@
 'use strict'
 
-//  date = promt('Як вас звати', 'Sasha');
-//  console.log(date)
+  // var date = prompt('Як вас звати', 'Sasha');
+  // hello = alert('Привіт Sasha');
 
+  // console.log(date, hello);
  
-zaputani = confirm('Ви впевнені, що хочете продовжити?') {
-    alert("Дякую за підтвердження!");
-  } {
-    alert("Дію відмінено!");
-  }
-  
-  
-// nebezpeka = alert('action is dangerous');
-// console.log(nebezpeka)
+// if (confirm("Ви підтверджуєте дію")) {
+//   alert("Дякую за підтвердження!");
+// } else {
+//   alert("Дію відмінено!");
+// }
+danger = alert('Ця дія небезпечна!');
+
+var approve = confirm('Підтверджуєте виконання дії?');
+
+if (approve) {
+  alert('Дякую за підтвердження!');
+} else {
+  alert('Дію відмінено!');
+}
+  console.log(danger, approve);
