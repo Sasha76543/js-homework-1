@@ -1,3 +1,5 @@
+'use strict'
+
 //temperature
 const celsiusTemperature = 25;
 
