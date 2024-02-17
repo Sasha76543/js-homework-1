@@ -12,3 +12,7 @@ const fullname = "Саша Косовський";
 
 const indexOFullname = fullname.indexOf("");
 console.log(indexOFullname);
+
+let number = 5 + 5 + "5";
+console.log(number);
+console.log(typeof number);
